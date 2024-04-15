@@ -1,0 +1,31 @@
+body {
+    padding: 1%;
+    font-family: 'Courier New', monospace;
+}
+
+.nav, .featured {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nav p, .featured p {
+    background-color: pink;
+    box-shadow: 5px 5px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.nav p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.featured p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#logo {
+    font-weight: 800;
+}
